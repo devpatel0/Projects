@@ -1,0 +1,1107 @@
+desc: (none)
+cmd: ./EDistance
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2399163076
+mem_heap_B=33562876
+mem_heap_extra_B=2140
+mem_stacks_B=0
+heap_tree=detailed
+n2: 33562876 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 33357824 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 33357824 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 33357824 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 33357824 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 33357824 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 33357824 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 33357824 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 33357824 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 205052 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=4932622662
+mem_heap_B=68839676
+mem_heap_extra_B=4292
+mem_stacks_B=0
+heap_tree=detailed
+n2: 68839676 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 68616192 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 68616192 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 68616192 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 68616192 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 68616192 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 68616192 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 68616192 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 68616192 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 223484 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=6571157346
+mem_heap_B=91646204
+mem_heap_extra_B=5684
+mem_stacks_B=0
+heap_tree=detailed
+n2: 91646204 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 91422720 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 91422720 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 91422720 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 91422720 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 91422720 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 91422720 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 91422720 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 91422720 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 223484 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=8435696814
+mem_heap_B=117598460
+mem_heap_extra_B=7268
+mem_stacks_B=0
+heap_tree=detailed
+n2: 117598460 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 117374976 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 117374976 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 117374976 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 117374976 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 117374976 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 117374976 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 117374976 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 117374976 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 223484 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=11374187787
+mem_heap_B=158517500
+mem_heap_extra_B=9764
+mem_stacks_B=0
+heap_tree=detailed
+n2: 158517500 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 158269440 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 158269440 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 158269440 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 158269440 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 158269440 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 158269440 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 158269440 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 158269440 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 248060 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=13396060317
+mem_heap_B=186599676
+mem_heap_extra_B=11484
+mem_stacks_B=0
+heap_tree=detailed
+n2: 186599676 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 186351616 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 186351616 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 186351616 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 186351616 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 186351616 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 186351616 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 186351616 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 186351616 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 248060 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=15762446877
+mem_heap_B=219597052
+mem_heap_extra_B=13492
+mem_stacks_B=0
+heap_tree=detailed
+n2: 219597052 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 219348992 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 219348992 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 219348992 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 219348992 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 219348992 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 219348992 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 219348992 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 219348992 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 248060 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=18531005187
+mem_heap_B=258132220
+mem_heap_extra_B=15844
+mem_stacks_B=0
+heap_tree=detailed
+n2: 258132220 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 257884160 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 257884160 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 257884160 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 257884160 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 257884160 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 257884160 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 257884160 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 257884160 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 248060 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=21761845830
+mem_heap_B=303139068
+mem_heap_extra_B=18588
+mem_stacks_B=0
+heap_tree=detailed
+n2: 303139068 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 302841856 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 302841856 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 302841856 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 302841856 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 302841856 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 302841856 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 302841856 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 302841856 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 297212 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=23588716864
+mem_heap_B=328567036
+mem_heap_extra_B=20140
+mem_stacks_B=0
+heap_tree=detailed
+n2: 328567036 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 328269824 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 328269824 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 328269824 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 328269824 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 328269824 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 328269824 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 328269824 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 328269824 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 297212 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=25566257674
+mem_heap_B=356092156
+mem_heap_extra_B=21820
+mem_stacks_B=0
+heap_tree=detailed
+n2: 356092156 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 355794944 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 355794944 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 355794944 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 355794944 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 355794944 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 355794944 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 355794944 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 355794944 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 297212 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=28244551071
+mem_heap_B=393251072
+mem_heap_extra_B=24104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=30331189340
+mem_heap_B=422414588
+mem_heap_extra_B=25868
+mem_stacks_B=0
+heap_tree=detailed
+n2: 422414588 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 422117376 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 422117376 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 422117376 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 422117376 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 422117376 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 422117376 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 422117376 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 422117376 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 297212 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=32839979239
+mem_heap_B=457214208
+mem_heap_extra_B=28008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=35561452068
+mem_heap_B=495094016
+mem_heap_extra_B=30320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=36992814940
+mem_heap_B=515016960
+mem_heap_extra_B=31536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=39344838377
+mem_heap_B=547948796
+mem_heap_extra_B=33524
+mem_stacks_B=0
+heap_tree=detailed
+n2: 547948796 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 547553280 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 547553280 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 547553280 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 547553280 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 547553280 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 547553280 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 547553280 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 547553280 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=42621906005
+mem_heap_B=593561852
+mem_heap_extra_B=36308
+mem_stacks_B=0
+heap_tree=detailed
+n2: 593561852 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 593166336 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 593166336 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 593166336 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 593166336 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 593166336 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 593166336 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 593166336 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 593166336 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=44364025290
+mem_heap_B=617810172
+mem_heap_extra_B=37788
+mem_stacks_B=0
+heap_tree=detailed
+n2: 617810172 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 617414656 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 617414656 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 617414656 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 617414656 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 617414656 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 617414656 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 617414656 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 617414656 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=46172062602
+mem_heap_B=642975996
+mem_heap_extra_B=39324
+mem_stacks_B=0
+heap_tree=detailed
+n2: 642975996 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 642580480 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 642580480 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 642580480 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 642580480 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 642580480 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 642580480 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 642580480 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 642580480 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=48055434802
+mem_heap_B=669190396
+mem_heap_extra_B=40924
+mem_stacks_B=0
+heap_tree=detailed
+n2: 669190396 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 668794880 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 668794880 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 668794880 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 668794880 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 668794880 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 668794880 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 668794880 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 668794880 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=50014141890
+mem_heap_B=696453372
+mem_heap_extra_B=42588
+mem_stacks_B=0
+heap_tree=detailed
+n2: 696453372 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 696057856 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 696057856 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 696057856 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 696057856 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 696057856 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 696057856 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 696057856 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 696057856 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=52048183866
+mem_heap_B=724764924
+mem_heap_extra_B=44316
+mem_stacks_B=0
+heap_tree=detailed
+n2: 724764924 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 724369408 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 724369408 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 724369408 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 724369408 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 724369408 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 724369408 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 724369408 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 724369408 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=54176394452
+mem_heap_B=754387196
+mem_heap_extra_B=46124
+mem_stacks_B=0
+heap_tree=detailed
+n2: 754387196 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 753991680 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 753991680 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 753991680 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 753991680 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 753991680 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 753991680 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 753991680 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 753991680 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=55824345127
+mem_heap_B=777324796
+mem_heap_extra_B=47524
+mem_stacks_B=0
+heap_tree=detailed
+n2: 777324796 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 776929280 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 776929280 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 776929280 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 776929280 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 776929280 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 776929280 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 776929280 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 776929280 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=58109888905
+mem_heap_B=809076988
+mem_heap_extra_B=49468
+mem_stacks_B=0
+heap_tree=detailed
+n2: 809076988 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 808681472 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 808681472 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 808681472 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 808681472 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 808681472 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 808681472 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 808681472 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 808681472 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=60476274461
+mem_heap_B=842074364
+mem_heap_extra_B=51476
+mem_stacks_B=0
+heap_tree=detailed
+n2: 842074364 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 841678848 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 841678848 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 841678848 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 841678848 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 841678848 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 841678848 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 841678848 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 841678848 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=62940738598
+mem_heap_B=876316924
+mem_heap_extra_B=53572
+mem_stacks_B=0
+heap_tree=detailed
+n2: 876316924 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 875921408 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 875921408 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 875921408 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 875921408 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 875921408 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 875921408 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 875921408 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 875921408 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=65502124790
+mem_heap_B=911968508
+mem_heap_extra_B=55748
+mem_stacks_B=0
+heap_tree=detailed
+n2: 911968508 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 911572992 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 911572992 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 911572992 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 911572992 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 911572992 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 911572992 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 911572992 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 911572992 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=68169849898
+mem_heap_B=949160188
+mem_heap_extra_B=58012
+mem_stacks_B=0
+heap_tree=detailed
+n2: 949160188 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 948764672 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 948764672 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 948764672 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 948764672 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 948764672 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 948764672 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 948764672 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 948764672 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 395516 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=70923478183
+mem_heap_B=987367680
+mem_heap_extra_B=60360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=73786203927
+mem_heap_B=1027213568
+mem_heap_extra_B=62792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=76761932003
+mem_heap_B=1068632320
+mem_heap_extra_B=65320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=78390569271
+mem_heap_B=1091569916
+mem_heap_extra_B=66692
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1091569916 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1090977792 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1090977792 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1090977792 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1090977792 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1090977792 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1090977792 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1090977792 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1090977792 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=81589548566
+mem_heap_B=1136036092
+mem_heap_extra_B=69412
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1136036092 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1135443968 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1135443968 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1135443968 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1135443968 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1135443968 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1135443968 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1135443968 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1135443968 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=84916453944
+mem_heap_B=1182402812
+mem_heap_extra_B=72236
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1182402812 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1181810688 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1181810688 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1181810688 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1181810688 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1181810688 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1181810688 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1181810688 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1181810688 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=88379105347
+mem_heap_B=1230539004
+mem_heap_extra_B=75180
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1230539004 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1229946880 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1229946880 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1229946880 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1229946880 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1229946880 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1229946880 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1229946880 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1229946880 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=90158892076
+mem_heap_B=1255311612
+mem_heap_extra_B=76692
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1255311612 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1254719488 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1254719488 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1254719488 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1254719488 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1254719488 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1254719488 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1254719488 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1254719488 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=91969682833
+mem_heap_B=1280575740
+mem_heap_extra_B=78228
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1280575740 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1279983616 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1279983616 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1279983616 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1279983616 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1279983616 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1279983616 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1279983616 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1279983616 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=93824804450
+mem_heap_B=1306396924
+mem_heap_extra_B=79804
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1306396924 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1305804800 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1305804800 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1305804800 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1305804800 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1305804800 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1305804800 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1305804800 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1305804800 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=95717593511
+mem_heap_B=1332742396
+mem_heap_extra_B=81412
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1332742396 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1332150272 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1332150272 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1332150272 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1332150272 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1332150272 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1332150272 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1332150272 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1332150272 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=97648050016
+mem_heap_B=1359612156
+mem_heap_extra_B=83052
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1359612156 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1359020032 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1359020032 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1359020032 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1359020032 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1359020032 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1359020032 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1359020032 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1359020032 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=99616173965
+mem_heap_B=1387006204
+mem_heap_extra_B=84724
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1387006204 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1386414080 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1386414080 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1386414080 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1386414080 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1386414080 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1386414080 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1386414080 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1386414080 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=101621965358
+mem_heap_B=1414924540
+mem_heap_extra_B=86428
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1414924540 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1414332416 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1414332416 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1414332416 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1414332416 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1414332416 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1414332416 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1414332416 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1414332416 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=103631661624
+mem_heap_B=1442777344
+mem_heap_extra_B=88144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=105703371044
+mem_heap_B=1471613184
+mem_heap_extra_B=89904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=107812747908
+mem_heap_B=1500973312
+mem_heap_extra_B=91696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=109969209077
+mem_heap_B=1530988800
+mem_heap_extra_B=93528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=113411875330
+mem_heap_B=1579026684
+mem_heap_extra_B=96444
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1579026684 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1578434560 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1578434560 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1578434560 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1578434560 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1578434560 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1578434560 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1578434560 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1578434560 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=114551315511
+mem_heap_B=1594886396
+mem_heap_extra_B=97412
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1594886396 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1594294272 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1594294272 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1594294272 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1594294272 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1594294272 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1594294272 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1594294272 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1594294272 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=115700172553
+mem_heap_B=1610877180
+mem_heap_extra_B=98388
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1610877180 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1610285056 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1610285056 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1610285056 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1610285056 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1610285056 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1610285056 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1610285056 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1610285056 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=116858446456
+mem_heap_B=1626999036
+mem_heap_extra_B=99372
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1626999036 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1626406912 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1626406912 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1626406912 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1626406912 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1626406912 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1626406912 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1626406912 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1626406912 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=118032800636
+mem_heap_B=1643284732
+mem_heap_extra_B=100372
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1643284732 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1642692608 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1642692608 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1642692608 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1642692608 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1642692608 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1642692608 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1642692608 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1642692608 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=119212661706
+mem_heap_B=1659767036
+mem_heap_extra_B=101372
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1659767036 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1659174912 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1659174912 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1659174912 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1659174912 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1659174912 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1659174912 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1659174912 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1659174912 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=120408603053
+mem_heap_B=1676413180
+mem_heap_extra_B=102388
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1676413180 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1675821056 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1675821056 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1675821056 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1675821056 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1675821056 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1675821056 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1675821056 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1675821056 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=121613961261
+mem_heap_B=1693190396
+mem_heap_extra_B=103412
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1693190396 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1692598272 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1692598272 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1692598272 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1692598272 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1692598272 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1692598272 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1692598272 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1692598272 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=122835399746
+mem_heap_B=1710131452
+mem_heap_extra_B=104452
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1710131452 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1709539328 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1709539328 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1709539328 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1709539328 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1709539328 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1709539328 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1709539328 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1709539328 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=124062345121
+mem_heap_B=1727269116
+mem_heap_extra_B=105492
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1727269116 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1726676992 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1726676992 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1726676992 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1726676992 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1726676992 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1726676992 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1726676992 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1726676992 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=125305370773
+mem_heap_B=1744570620
+mem_heap_extra_B=106548
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1744570620 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1743978496 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1743978496 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1743978496 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1743978496 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1743978496 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1743978496 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1743978496 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1743978496 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=126564476702
+mem_heap_B=1762035964
+mem_heap_extra_B=107620
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1762035964 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1761443840 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1761443840 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1761443840 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1761443840 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1761443840 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1761443840 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1761443840 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1761443840 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=127829089521
+mem_heap_B=1779697916
+mem_heap_extra_B=108692
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1779697916 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1779105792 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1779105792 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1779105792 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1779105792 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1779105792 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1779105792 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1779105792 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1779105792 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=129109782617
+mem_heap_B=1797523708
+mem_heap_extra_B=109780
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1797523708 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1796931584 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1796931584 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1796931584 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1796931584 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1796931584 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1796931584 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1796931584 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1796931584 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=63
+#-----------
+time=130406555990
+mem_heap_B=1815513340
+mem_heap_extra_B=110884
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1815513340 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1814921216 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1814921216 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1814921216 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1814921216 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1814921216 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1814921216 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1814921216 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1814921216 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=131708836253
+mem_heap_B=1833699580
+mem_heap_extra_B=111988
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1833699580 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1833107456 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1833107456 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1833107456 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1833107456 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1833107456 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1833107456 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1833107456 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1833107456 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=133027196793
+mem_heap_B=1852049660
+mem_heap_extra_B=113108
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1852049660 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1851457536 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1851457536 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1851457536 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1851457536 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1851457536 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1851457536 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1851457536 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1851457536 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=66
+#-----------
+time=134364391055
+mem_heap_B=1870661884
+mem_heap_extra_B=114244
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1870661884 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1870069760 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1870069760 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1870069760 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1870069760 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1870069760 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1870069760 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1870069760 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1870069760 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=135711002178
+mem_heap_B=1889405180
+mem_heap_extra_B=115388
+mem_stacks_B=0
+heap_tree=peak
+n2: 1889405180 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1888813056 0x10CDB7: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/devam/ps5/EDistance)
+  n1: 1888813056 0x10CAFF: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/devam/ps5/EDistance)
+   n1: 1888813056 0x10C6A9: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/devam/ps5/EDistance)
+    n1: 1888813056 0x10C07A: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/devam/ps5/EDistance)
+     n1: 1888813056 0x10BAD5: int& std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/devam/ps5/EDistance)
+      n1: 1888813056 0x10B483: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/devam/ps5/EDistance)
+       n1: 1888813056 0x10A79B: ED::OptDistance() (in /home/devam/ps5/EDistance)
+        n0: 1888813056 0x10D443: main (in /home/devam/ps5/EDistance)
+ n0: 592124 in 6 places, all below massif's threshold (1.00%)
